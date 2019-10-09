@@ -1,5 +1,14 @@
 body {
-	background-image: url('../images/bus-stop.jpeg');
+	font-family: 'Kreon', serif;
+	background-color: yellow;
+	background-image: url("../images/bus-stop.png");
+	height: 100%
 }
-/*background-position:;*/
+nav{
+	display: grid;
+	grid-template-columns: 
+
+}
+main { 
+ }
 /* Enter your Styles below! */
