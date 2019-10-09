@@ -2,6 +2,8 @@ body {
 	font-family: 'Kreon', serif;
 	background-color: yellow;
 	background-image: url("../images/bus-stop.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100%
 }
 nav{
