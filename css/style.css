@@ -1,16 +1,34 @@
-body {
+.homepage
+header
+{
+	height:100vh; 
+	position: relative;
+}
+body 
+ {
 	font-family: 'Kreon', serif;
-	background-color: yellow;
+	background-color: black;
 	background-image: url("../images/bus-stop.png");
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%
-}
-nav{
-	display: grid;
-	grid-template-columns: 
+	background-size: 100% 100%;}
 
+nav 
+{
+	grid-column:1fr 1fr 1fr 1fr;
+	width:120px;
+	/*position:absolute;*/
+	bottom:200px;
+	left:40vw;
 }
 main { 
  }
+ .subpage
+ body 
+ {
+	font-family: 'Kreon', serif;
+	background-color: black;
+	background-image: url("../images/cartman-house.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 /* Enter your Styles below! */
