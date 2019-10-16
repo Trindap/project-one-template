@@ -12,13 +12,29 @@ body
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
 
-nav 
+/*nav
 {
 	grid-column:1fr 1fr 1fr 1fr;
 	width:120px;
-	/*position:absolute;*/
+	position:absolute;
+	bottom:500px;
+	left:10vw;
+}*/
+.eric{
 	bottom:200px;
-	left:40vw;
+	left:; 
+}
+.kyle{
+	bottom:500px;
+	left:10vw; 
+}
+.stan{
+	bottom:500px;
+	left:10vw; 
+}
+.kenny{
+	bottom:500px;
+	left:10vw; 
 }
 main { 
  }
