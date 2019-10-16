@@ -10,41 +10,84 @@ body
 	background-color: black;
 	background-image: url("../images/bus-stop.png");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;}
+	background-size: 100% 100%;}*/
 
-/*nav
-{
-	grid-column:1fr 1fr 1fr 1fr;
-	width:120px;
-	position:absolute;
-	bottom:500px;
-	left:10vw;
-}*/
-.eric{
-	bottom:200px;
-	left:; 
+h1{
+
 }
-.kyle{
-	bottom:500px;
-	left:10vw; 
+
+.logo-main{
+	position:center;
 }
-.stan{
+.eric-main{
 	bottom:500px;
-	left:10vw; 
+	left:10; 
 }
-.kenny{
+.kyle-main{
 	bottom:500px;
-	left:10vw; 
+	left:20vw; 
+}
+.stan-main{
+	bottom:500px;
+	left:30vw; 
+}
+.kenny-main{
+	bottom:500px;
+	left:40vw; 
 }
 main { 
  }
- .subpage
- body 
+ .subpage-cartman 
  {
 	font-family: 'Kreon', serif;
 	background-color: black;
 	background-image: url("../images/cartman-house.png");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
+}
+.subpage-kyle 
+ {
+	font-family: 'Kreon', serif;
+	background-color: black;
+	background-image: url("../images/broflovski-house.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}.subpage-stan 
+ {
+	font-family: 'Kreon', serif;
+	background-color: black;
+	background-image: url("../images/marsh-house.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.subpage-kenny 
+ {
+	font-family: 'Kreon', serif;
+	background-color: black;
+	background-image: url("../images/mccormick-house.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.subpage-cartman 
+ {
+	font-family: 'Kreon', serif;
+	background-color: black;
+	background-image: url("../images/cartman-house.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+li{
+	display:inline;
+}
+ul-2{
+	background-color:black;
+	padding:5px;
+}
+.icon{
+	position: relative;
+	height:75px;
+	top:100;
+	left:1vw;
+}
 }
 /* Enter your Styles below! */
