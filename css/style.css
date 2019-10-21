@@ -4,6 +4,10 @@ header
 	height:100vh; 
 	position: relative;
 }
+header{
+	height:100vh;
+	position: relative;
+}
 body 
  {
 	font-family: 'Kreon', serif;
@@ -12,35 +16,40 @@ body
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
 
-h1{
-
-}
-
 .logo-main{
+	height:500px;
 	position:center;
 }
 .eric-main{
-	size:300;
-	bottom:500px;
-	left:10; 
+	size:200px;
+	bottom:200px;
+	left:700px;
+	 
 }
 .kyle-main{
-	bottom:500px;
-	left:20vw; 
-}
+	bottom:200px;}
+	
 .stan-main{
-	bottom:500px;
-	left:30vw; 
+	bottom:200px;
+	 
 }
 .kenny-main{
-	bottom:500px;
-	left:40vw; 
+	bottom:200px;
+	 
 }
 main { 
  }
  div{
- 	grid:
+ 	height:200px;
+ 	display: inline-grid;
+ 	grid-template-columns:1fr 1fr 1fr;
  }
+ .icon{
+	position: relative;
+	height:75px;
+	top:100;
+	left:1vw;
+}
  .subpage-cartman 
  {
 	font-family: 'Kreon', serif;
@@ -80,18 +89,39 @@ main {
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+.container{
+  position: left;
+
+}
+
+.center {
+  position: absolute;
+  top: 34%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+p{
+
+}
 li{
 	display:inline;
+}
+li-2{
+	/*display:inline;*/
+}
+ul-2{padding:5px;
+	display:inline;
+
 }
 ul{
 	background-color:black;
 	padding:5px;
 }
-.icon{
-	position: relative;
-	height:75px;
-	top:100;
-	left:1vw;
+
 }
+footer{
+	background-color:black;
+	padding:5px;
 }
 /* Enter your Styles below! */
