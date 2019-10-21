@@ -10,7 +10,7 @@ body
 	background-color: black;
 	background-image: url("../images/bus-stop.png");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;}*/
+	background-size: 100% 100%;}
 
 h1{
 
@@ -20,6 +20,7 @@ h1{
 	position:center;
 }
 .eric-main{
+	size:300;
 	bottom:500px;
 	left:10; 
 }
@@ -36,6 +37,9 @@ h1{
 	left:40vw; 
 }
 main { 
+ }
+ div{
+ 	grid:
  }
  .subpage-cartman 
  {
@@ -79,7 +83,7 @@ main {
 li{
 	display:inline;
 }
-ul-2{
+ul{
 	background-color:black;
 	padding:5px;
 }
