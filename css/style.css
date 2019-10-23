@@ -43,6 +43,20 @@ main {
  	display: inline-grid;
  	grid-template-columns:1fr 1fr 1fr;
  }
+ div-2 {
+ 	bottom:100px;
+  width: 300px;
+  background-color:crimson;
+  padding: 75px;
+  margin: 20px;
+}
+div-3 {
+ 	bottom:100px;
+  width: 300px;
+  background-color:crimson;
+  padding: 75px;
+  margin: 20px;
+}
  .icon{
 	position: relative;
 	height:75px;
@@ -80,6 +94,7 @@ main {
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+
 h1{
 text-align:left;
 font-weight:bold;
@@ -89,32 +104,16 @@ text-align:left;
 font-weight:bold;
 }
 h3{
-
+text-align:left;
+font-weight:bold;
 }
 h4{
 text-align:left;
 font-weight:bold;
 }
 h5{
-
-}
-h6{
 text-align:left;
 font-weight:bold;
-}
-h7{
-
-}
-h8{
-text-align:left;
-font-weight:bold;
-}
-h9{
-
-}
-p{
-	max-width:450px;
-	max-height:550px; 
 }
 li{
 	display:inline;
