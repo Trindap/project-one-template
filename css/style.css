@@ -112,6 +112,10 @@ font-weight:bold;
 h9{
 
 }
+p{
+	max-width:450px;
+	max-height:550px; 
+}
 li{
 	display:inline;
 }
