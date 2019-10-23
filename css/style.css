@@ -67,7 +67,7 @@ div-3 {
  {
 	font-family: 'Kreon', serif;
 	background-color: black;
-	background-image: url("../images/cartman-house.png");
+	background-image: url(../images/cartman-house.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -75,14 +75,14 @@ div-3 {
  {
 	font-family: 'Kreon', serif;
 	background-color: black;
-	background-image: url("../images/broflovski-house.png");
+	background-image: url(../images/broflovski-house.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }.subpage-stan 
  {
 	font-family: 'Kreon', serif;
 	background-color: black;
-	background-image: url("../images/marsh-house.png");
+	background-image: url(../images/marsh-house.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -90,7 +90,7 @@ div-3 {
  {
 	font-family: 'Kreon', serif;
 	background-color: black;
-	background-image: url("../images/mccormick-house.png");
+	background-image: url(../images/mccormick-house.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
