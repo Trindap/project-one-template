@@ -11,7 +11,7 @@ body
  {
 	font-family: 'Kreon', serif;
 	background-color: black;
-	background-image: url("../images/bus-stop.png");
+	background-image: url(../images/bus-stop.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;}
 
