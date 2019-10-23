@@ -43,20 +43,14 @@ main {
  	display: inline-grid;
  	grid-template-columns:1fr 1fr 1fr;
  }
- div-2 {
+ .cartmanbio{
  	bottom:100px;
   width: 300px;
   background-color:crimson;
   padding: 75px;
   margin: 20px;
 }
-div-3 {
- 	bottom:100px;
-  width: 300px;
-  background-color:crimson;
-  padding: 75px;
-  margin: 20px;
-}
+
  .icon{
 	position: relative;
 	height:75px;
