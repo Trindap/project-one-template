@@ -13,51 +13,9 @@ body
 	background-color: black;
 	background-image: url(../images/bus-stop.png);
 	background-repeat: no-repeat;
-	background-size: 100% 100%;}
-
-.logo-main{
-	height:500px;
-	position:right;
+	background-size: 100% 100%;
 }
-.eric-main{
-	size:200px;
-	bottom:200px;
-	left:700px;
-	 
-}
-.kyle-main{
-	bottom:200px;}
-	
-.stan-main{
-	bottom:200px;
-	 
-}
-.kenny-main{
-	bottom:200px;
-	 
-}
-main { 
- }
- div{
- 	height:200px;
- 	display: inline-grid;
- 	grid-template-columns:1fr 1fr 1fr;
- }
- .cartmanbio{
- 	bottom:100px;
-  width: 300px;
-  background-color:crimson;
-  padding: 75px;
-  margin: 20px;
-}
-
- .icon{
-	position: relative;
-	height:75px;
-	top:100;
-	left:1vw;
-}
- .subpage-cartman 
+.subpage-cartman 
  {
 	font-family: 'Kreon', serif;
 	background-color: black;
@@ -88,7 +46,45 @@ main {
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
-
+ .icon{
+	position: relative;
+	height:75px;
+	top:100;
+	left:1vw;
+}
+.logo-main{
+	height:500px;
+	position:right;
+}
+/*.eric-main{
+	size:200px;
+	bottom:200px;
+	left:700px;
+	 
+}
+.kyle-main{
+	bottom:200px;}
+	
+.stan-main{
+	bottom:200px;
+	 
+}
+.kenny-main{
+	bottom:200px;
+	 
+}*/
+ div{
+ 	height:200px;
+ 	display: inline-grid;
+ 	grid-template-columns:1fr 1fr 1fr;
+ }
+ .cartmanbio{
+  bottom:100px;
+  width: 300px;
+  background-color:crimson;
+  padding: 75px;
+  margin: 20px;
+}
 h1{
 text-align:left;
 font-weight:bold;
@@ -117,15 +113,13 @@ li{
 }
 ul-2{padding:5px;
 	display:inline;
-}*/
+}
 nav-2{
 display:inline;	
-}
+}*/
 ul{
 	background-color:black;
 	padding:5px;
-}
-
 }
 footer{
 	background-color:black;
