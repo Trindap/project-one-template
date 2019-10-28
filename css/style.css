@@ -15,7 +15,6 @@ body
 	background-color: black;
 	background-image: url(../images/cartman-house.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
 }
 .supage-cartman main{
 	display:grid;
@@ -26,20 +25,30 @@ body
 	background-color: black;
 	background-image: url(../images/broflovski-house.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
-}.subpage-stan 
+}
+.subpage-kyle main{
+	display:grid;
+	grid-template-columns:60% 40%;	
+}
+.subpage-stan 
  {
 	background-color: black;
 	background-image: url(../images/marsh-house.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+}
+.subpage-stan main{
+	display:grid;
+	grid-template-columns:60% 40%;	
 }
 .subpage-kenny 
  {
 	background-color: black;
 	background-image: url(../images/mccormick-house.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+}
+.subpage-kenny main{
+	display:grid;
+	grid-template-columns:60% 40%;	
 }
  .icon{
  	display:inline-grid;
@@ -105,10 +114,13 @@ nav ul{
 	width:70%;
 	margin:auto;
 }
-.icon ul{ display:inline;
-	padding:5px;
+.icon nav{
+	background-color:black;
 }
-/*ul main{padding:5px;
+.icon ul{
+	width:100%;
 	display:inline;
+	position:fixed;
+	padding:5px;
+	background-color:black;
 }
-*/
