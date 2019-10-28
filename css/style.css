@@ -3,13 +3,8 @@ header
 	height:100vh; 
 	position: relative;
 }
-header{
-	height:100vh;
-	position: relative;
-}
 body 
- {
-	font-family: 'Kreon', serif;
+ {  font-family: 'Kreon', serif;
 	background-color: black;
 	background-image: url(../images/bus-stop.png);
 	background-repeat: no-repeat;
@@ -17,22 +12,23 @@ body
 }
 .subpage-cartman 
  {
-	font-family: 'Kreon', serif;
 	background-color: black;
 	background-image: url(../images/cartman-house.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+.supage-cartman main{
+	display:grid;
+	grid-template-columns:60% 40%;
+}
 .subpage-kyle 
  {
-	font-family: 'Kreon', serif;
 	background-color: black;
 	background-image: url(../images/broflovski-house.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }.subpage-stan 
  {
-	font-family: 'Kreon', serif;
 	background-color: black;
 	background-image: url(../images/marsh-house.png);
 	background-repeat: no-repeat;
@@ -40,61 +36,79 @@ body
 }
 .subpage-kenny 
  {
-	font-family: 'Kreon', serif;
 	background-color: black;
 	background-image: url(../images/mccormick-house.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
  .icon{
+ 	display:inline-grid;
 	position: relative;
 	height:75px;
 	top:100;
-	left:1vw;
+	left:0px;
+	grid-template-rows:100%;
 }
-.logo-main{
-	width:500px;
-	position:right;
+ img{width:100%;}
+
+ .cartmanbio{
+  bottom:50px;
+  width:300px;
+  height:500px;
+  background-color:crimson;
+  padding: 75px;
+  margin: 20px;
 }
-nav main{
+.kylebio{  
+  bottom:50px;
+  width:300px;
+  height:500px;
+  background-color:#ff571a;
+  padding: 75px;
+  margin: 20px;
 
 }
- div{
- 	height:200px;
- 	display: inline-grid;
- 	grid-template-columns:1fr 1fr 1fr;
- }
- .cartmanbio{
-  bottom:100px;
+.stanbio{
+  bottom:50px;
   width:300px;
-  height:400px;
-  background-color:crimson;
+  height:500px;
+  background-color:#885949;
+  padding: 75px;
+  margin: 20px;
+}
+.kennybio{
+  bottom:50px;
+  width:300px;
+  height:500px;
+  background-color:#ff6600;
   padding: 75px;
   margin: 20px;
 }
 h1{
 text-align:left;
 font-weight:bold;
+font-size:20px;
+margin:auto;
 }
 h2{
 text-align:left;
 font-weight:bold;
+font-size:50px;
+margin:auto;
 }
 li{
 	display:inline;
 }
-li main{
-	display:inline;
+nav ul{
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+	width:70%;
+	margin:auto;
 }
-ul{
-	background-color:black;
+.icon ul{ display:inline;
 	padding:5px;
 }
-ul main{padding:5px;
+/*ul main{padding:5px;
 	display:inline;
 }
-
-footer{
-	background-color:black;
-	padding:5px;
-}
+*/
