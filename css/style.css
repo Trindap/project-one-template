@@ -18,7 +18,7 @@ body
 }
 .supage-cartman main{
 	display:grid;
-	grid-template-columns:60% 40%;
+	grid-template-columns:80% 20%;
 }
 .subpage-kyle 
  {
@@ -102,7 +102,7 @@ margin:auto;
 h2{
 text-align:left;
 font-weight:bold;
-font-size:50px;
+font-size:35px;
 margin:auto;
 }
 li{
@@ -123,4 +123,18 @@ nav ul{
 	position:fixed;
 	padding:5px;
 	background-color:black;
+}
+.logo-main{
+	size:200px;
+	padding:50px;
+	top:200px;
+	position:flex;
+}
+.eric img{
+width:300px;
+}
+footer{
+	color:white;
+	background-color:black;
+	padding:3px;
 }
