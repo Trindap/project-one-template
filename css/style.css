@@ -56,23 +56,9 @@ body
 	width:500px;
 	position:right;
 }
-/*.eric-main{
-	size:200px;
-	bottom:200px;
-	left:700px;
-	 
+nav main{
+
 }
-.kyle-main{
-	bottom:200px;}
-	
-.stan-main{
-	bottom:200px;
-	 
-}
-.kenny-main{
-	bottom:200px;
-	 
-}*/
  div{
  	height:200px;
  	display: inline-grid;
@@ -80,7 +66,8 @@ body
  }
  .cartmanbio{
   bottom:100px;
-  width: 300px;
+  width:300px;
+  height:400px;
   background-color:crimson;
   padding: 75px;
   margin: 20px;
@@ -93,36 +80,21 @@ h2{
 text-align:left;
 font-weight:bold;
 }
-h3{
-text-align:left;
-font-weight:bold;
-}
-h4{
-text-align:left;
-font-weight:bold;
-}
-h5{
-text-align:left;
-font-weight:bold;
-}
 li{
 	display:inline;
 }
-/*li-2{
-	/*display:inline;
-}
-ul-2{padding:5px;
+li main{
 	display:inline;
 }
-nav-2{
-display:inline;	
-}*/
 ul{
 	background-color:black;
 	padding:5px;
 }
+ul main{padding:5px;
+	display:inline;
+}
+
 footer{
 	background-color:black;
 	padding:5px;
 }
-/* Enter your Styles below! */
