@@ -18,7 +18,7 @@ body
 }
 .supage-cartman main{
 	display:grid;
-	grid-template-columns:80% 20%;
+	grid-template-columns:60% 40%;
 }
 .subpage-kyle 
  {
@@ -114,9 +114,9 @@ nav ul{
 	width:70%;
 	margin:auto;
 }
-.icon nav{
+/*.icon nav{
 	background-color:black;
-}
+}*/
 .icon ul{
 	width:100%;
 	display:inline;
