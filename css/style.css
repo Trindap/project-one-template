@@ -130,6 +130,11 @@ nav ul{
 	top:0px;
 	position:relative;
 }
+.cartman{
+	left:600px;
+	width:500px;
+	display:inline-grid;
+}
 footer{
 	color:white;
 	background-color:black;
