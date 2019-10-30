@@ -51,6 +51,7 @@ body
 	grid-template-columns:60% 40%;	
 }
  .icon{
+ 	width:auto;
  	display:inline-grid;
 	position: relative;
 	height:75px;
