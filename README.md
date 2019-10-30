@@ -1,6 +1,8 @@
 # Project One
 This is the template repository for the first major project in the Design 341 class at PSU.
 
+Images and information credit too:https://southpark.cc.com/wiki
+
 ## To use this template:
 
 1. Click the "Fork" button in the upper right corner of this repository.
