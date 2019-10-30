@@ -16,7 +16,7 @@ body
 	background-image: url(../images/cartman-house.png);
 	background-repeat: no-repeat;
 }
-.supage-cartman main{
+.subpage-cartman main{
 	display:grid;
 	grid-template-columns:60% 40%;
 }
@@ -58,6 +58,7 @@ body
 	left:0px;
 	grid-template-rows:100%;
 }
+
  img{width:100%;}
 
  .cartmanbio{
@@ -123,17 +124,25 @@ nav ul{
 	padding:5px;
 	background-color:black;
 }
+
+.icon figure img{
+	opacity:1;
+}
+.icon figure:hover img{
+	opacity:.5;
+}
+.main figure img{
+	opacity:1;
+}
+.main figure:hover img{
+	opacity:.5;
+}
 .logo-main{
 	width:1000px;
 	left:215px;
 	padding:35px;
 	top:0px;
 	position:relative;
-}
-.cartman{
-	left:600px;
-	width:500px;
-	display:inline-grid;
 }
 footer{
 	color:white;
