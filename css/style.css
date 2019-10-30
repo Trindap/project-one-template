@@ -61,49 +61,51 @@ body
  img{width:100%;}
 
  .cartmanbio{
-  bottom:50px;
-  width:300px;
+  width:400px;
   height:500px;
   background-color:crimson;
-  padding: 75px;
-  margin: 20px;
+  padding: 100px;
+  margin: 30px;
 }
 .kylebio{  
-  bottom:50px;
-  width:300px;
+  width:400px;
   height:500px;
   background-color:#ff571a;
-  padding: 75px;
-  margin: 20px;
+  padding: 100px;
+  margin: 30px;
 
 }
 .stanbio{
-  bottom:50px;
-  width:300px;
+  width:400px;
   height:500px;
   background-color:#885949;
-  padding: 75px;
-  margin: 20px;
+  padding: 100px;
+  margin: 30px;
 }
 .kennybio{
-  bottom:50px;
-  width:300px;
+  width:400px;
   height:500px;
   background-color:#ff6600;
-  padding: 75px;
-  margin: 20px;
+  padding: 100px;
+  margin: 30px;
 }
+
 h1{
+	line-height:30px;
 text-align:left;
 font-weight:bold;
 font-size:20px;
 margin:auto;
 }
 h2{
+	line-height:45px;
 text-align:left;
 font-weight:bold;
 font-size:35px;
 margin:auto;
+}
+h3{
+	line-height:20px;
 }
 li{
 	display:inline;
@@ -114,9 +116,6 @@ nav ul{
 	width:70%;
 	margin:auto;
 }
-/*.icon nav{
-	background-color:black;
-}*/
 .icon ul{
 	width:100%;
 	display:inline;
@@ -125,13 +124,11 @@ nav ul{
 	background-color:black;
 }
 .logo-main{
-	size:200px;
-	padding:50px;
-	top:200px;
-	position:flex;
-}
-.eric img{
-width:300px;
+	width:1000px;
+	left:215px;
+	padding:35px;
+	top:0px;
+	position:relative;
 }
 footer{
 	color:white;
