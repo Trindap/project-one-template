@@ -3,19 +3,16 @@ header
 	height:100vh; 
 	position: relative;
 }
-body 
+.main header 
  {  font-family: 'Kreon', serif;
 	color: white;
 	background-image: url(../images/bus-stop.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
-/*body {  font-family: 'Kreon', serif;
-	color: white;
-	background-color:black;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-}*/
+
+}
+
 .snowflake {
   color: #fff;
   font-size: 1em;
@@ -41,7 +38,7 @@ body
 .snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
 
 
-.subpage-cartman 
+/*.subpage-cartman 
  {
 	background-color: black;
 	background-image: url(../images/cartman-house.png);
@@ -51,7 +48,7 @@ body
 	display:grid;
 	grid-template-columns:60% 40%;
 }
-/*.subpage-kyle 
+.subpage-kyle 
  {
 	background-color: black;
 	background-image: url(../images/broflovski-house.png);
@@ -60,7 +57,7 @@ body
 .subpage-kyle main{
 	display:grid;
 	grid-template-columns:60% 40%;	
-}*/
+}
 .subpage-stan 
  {
 	background-color: black;
@@ -80,7 +77,7 @@ body
 .subpage-kenny main{
 	display:grid;
 	grid-template-columns:60% 40%;	
-}
+}*/
  .icon{
  	width:auto;
  	display:inline-grid;
@@ -200,11 +197,39 @@ footer{
 	padding: 20px;
 }
 
+.subpage-cartman main{
+	display:grid;
+	grid-template-columns:1fr;
+}
+
+
 .subpage-kyle main{
 	display:grid;
 	grid-template-columns:1fr ;	
 }
+
+.subpage-stan main{
+	display:grid;
+	grid-template-columns:1fr;	
+}
+
+.subpage-kenny main{
+	display:grid;
+	grid-template-columns:1fr;	
+}
+	body {  font-family: 'Kreon', serif;
+	color: white;
+	background-color:black;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
 @media only screen and (min-width: 768px){
+	body {  font-family: 'Kreon', serif;
+	color: white;
+	background-color:black;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
 
 .grid {
 	display: grid;
@@ -244,6 +269,36 @@ footer{
 	background-repeat: no-repeat;
 }
 .subpage-kyle main{
+	display:grid;
+	grid-template-columns:1fr 1fr;	
+}
+.subpage-cartman 
+ {
+	background-color: black;
+	background-image: url(../images/cartman-house.png);
+	background-repeat: no-repeat;
+}
+.subpage-cartman main{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+}
+.subpage-stan 
+ {
+	background-color: black;
+	background-image: url(../images/marsh-house.png);
+	background-repeat: no-repeat;
+}
+.subpage-stan main{
+	display:grid;
+	grid-template-columns:1fr 1fr;	
+}
+.subpage-kenny 
+ {
+	background-color: black;
+	background-image: url(../images/mccormick-house.png);
+	background-repeat: no-repeat;
+}
+.subpage-kenny main{
 	display:grid;
 	grid-template-columns:1fr 1fr;	
 }
