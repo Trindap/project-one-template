@@ -3,6 +3,8 @@ This is the template repository for the first major project in the Design 341 cl
 
 Images and information credit too:https://southpark.cc.com/wiki
 
+Snowflake CSS animation from: https://pajasevi.github.io/CSSnowflakes/
+
 ## To use this template:
 
 1. Click the "Fork" button in the upper right corner of this repository.
