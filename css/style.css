@@ -89,7 +89,10 @@ header
 	grid-template-rows:100%;
 }
 
- img{width:100%;}
+ img{
+ 	width:100%;
+ 	cursor:pointer;
+ }
 
  .cartmanbio{
   width:auto;
